@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>To-Do List Web App</header>
+
+    <div class="input-box">
+      <input type="text" id="taskInput" placeholder="Enter your task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        <h2>To-Do List</h2>
+        <ul id="todoList"></ul>
+      </div>
+
+      <div>
+        <div class="column">
+          <h2>Pending Tasks</h2>
+          <ul id="pendingList"></ul>
+        </div>
+        <div class="column" style="margin-top: 20px">
+          <h2>Completed Tasks</h2>
+          <ul id="completedList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ | To-Do List App</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

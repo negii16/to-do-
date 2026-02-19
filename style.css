@@ -1,0 +1,133 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe6df;
+    color: #1E242D;
+}
+
+header {
+    background-color: #1E242D;
+    padding: 20px;
+    color: #ebe6df;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #383E47;
+    border-radius: 50px;
+    padding: 8px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    flex: 1;
+    font-size: 16px;
+    border-radius: 30px;
+    background: transparent;
+    color: #E6D8C0;
+}
+
+.input-box input::placeholder {
+    color: #bbb;
+}
+
+.input-box button {
+    border: none;
+    background: #ebe6df;
+    color: #1E242D;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-box button:hover {
+    background: #1E242D;
+    color: #ebe6df;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.column {
+    background: #E6D8C0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    min-height: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #E6D8C0;
+}
+
+.column h2 {
+    background: #383E47;
+    color: #ebe6df;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #8D8376;
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #1E242D;
+}
+
+ul li button {
+    border: none;
+    background: #1E242D;
+    color: #E6D8C0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+ul li button:hover {
+    background: #383E47;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #383E47;
+    background: #c1b7a9;
+}
+
+
+footer {
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
